@@ -19,7 +19,7 @@
     name: nginx
     enabled: yes
 
-- name: Import Nginx Newrelic Setup
+- name: Import Newrelic Nginx Setup
   ansible.builtin.import_role:
     name: newrelic
     tasks_from: nginx
